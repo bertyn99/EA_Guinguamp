@@ -8,9 +8,15 @@
     margin: 5px;
     padding: 15px;
     width: 350px;
-    -ms-transform: rotateX(20deg);
-    /* IE 9 */
+
     transform: skew(10deg);
     background-color: grey;
+    box-shadow: 5px 2px 2px;
+}
 
+.card-date {
+    width: 50px;
+    transform: skew(10deg);
+    color: white;
+    background-color: black;
 }
